@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "name": "stats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "start:bulid": "tsc -w",
+     "start:run": "nodemon build/index.js",
+     "start": "concurrently npm:start:*"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^8.2.1",
+    "nodemon": "^3.0.1"
+  }
+}
