@@ -1,3 +1,4 @@
+import fs from 'fs';
 import { OutputTarget } from '../Summary';
 
 export class HtmlReport implements OutputTarget {
